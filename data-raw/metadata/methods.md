@@ -2,7 +2,7 @@
 Three in-line 8-foot diameter rotary screw traps (RST).
 
 ## Current Trap Location
-Traps are currently located in the•	Lower Sacramento River at RM 75, approximately 5 miles below the confluence of the Feather and Sacramento Rivers .
+Traps are currently located in the Lower Sacramento River at RM 75, approximately 5 miles below the confluence of the Feather and Sacramento Rivers.
 
 ## Monitoring Schedule
 Traps are monitored October through June. Traps are continuously trapping except under high flows and unsafe working conditions. They are serviced daily within a 24-hour period, more if needed due to high debris amounts or fish catch.
@@ -20,7 +20,7 @@ All fish not measured are plus counted by hand.
 Fall-run Chinook salmon captured in the RSTs or juvenile Chinook salmon produced by the Feather River Fish Hatchery are the source of released fish. Frequency of once per week from December to May across variable flow and environmental conditions as catch totals and/or hatchery availability allows. A minimum of three consecutive days of fishing after the release date is required for a release to be included in analyses. Mortality between the release point and the trap is assumed to be negligible. Release site approximately 1 mile upstream of the trapping site, but other sites may be added to aid in developing a trap efficiency. 
 
 ## Trap Efficiency Marks
-•	Fish are marked with Methylene Blue or Bismarck Brown Y (BBY) whole body stain. Fish are alternatively marked with a Visible Implant Elastomer (VIE) Tag.   
+Fish are marked with Methylene Blue or Bismarck Brown Y (BBY) whole body stain. Fish are alternatively marked with a Visible Implant Elastomer (VIE) Tag.   
 
 ## References
 Fisher, F. W. 1992. Chinook salmon, Oncorhynchus tshawytscha, growth and occurrence in the Sacramento-San Joaquin River system. Draft report dated June 1992. Sacramento, CA: Inland Fisheries Division, California Department Fish and Game. 42 p.

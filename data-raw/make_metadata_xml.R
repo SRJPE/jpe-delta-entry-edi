@@ -11,9 +11,9 @@ datatable_metadata <-
                              "data/recaptures.csv",
                              "data/release.csv"),
                 attribute_info = c("data-raw/metadata/delta_entry_catch_metadata.xlsx",
-                                   "data-raw/metadata/delta_entry_trap_metadata.xlsx", # TODO
-                                   "data-raw/metadata/delta_entry_recapture_metadata.xlsx", # TODO
-                                   "data-raw/metadata/delta_entry_release_metadata.xlsx"), # TODO
+                                   "data-raw/metadata/delta_entry_trap_metadata.xlsx",
+                                   "data-raw/metadata/delta_entry_recapture_metadata.xlsx",
+                                   "data-raw/metadata/delta_entry_release_metadata.xlsx"),
                 datatable_description = c("Daily catch",
                                           "Daily trap operations",
                                           "Recaptured fish",
@@ -24,7 +24,8 @@ datatable_metadata <-
                                          "recaptures.csv",
                                          "release.csv")))
 
-excel_path <- "data-raw/metadata/delta_entry_metadata.xlsx" # TODO
+excel_path <- "data-raw/metadata/delta_entry_metadata.xlsx" # TODO funding? personnel?
+# TODO confirm lat/long (https://www.calfish.org/ProgramsData/ConservationandManagement/CentralValleyMonitoring/SacramentoValleyTributaryMonitoring/LowerSacramentoRiver-RSTMonitoring.aspx)
 sheets <- readxl::excel_sheets(excel_path)
 metadata <- lapply(sheets, function(x) readxl::read_excel(excel_path, sheet = x))
 names(metadata) <- sheets

@@ -12,7 +12,6 @@ write_csv(catch_raw, here::here("data", "catch.csv"))
 
 # trap
 # TODO do we want counterAtStart?
-# TODO includeCatch is all "Yes"
 trap_raw <- read_xlsx(here::here("data-raw", "DeltaEntry_TrapRaw.xlsx")) |>
   glimpse()
 
@@ -27,7 +26,6 @@ write_csv(recaptures_raw, here::here("data", "recaptures.csv"))
 # release
 # TODO sourceOFFishSite, releaseSubSite, and appliedMarkCode are NA
 # TODO what is testDays?
-# TODO includeAnalysis is all "Yes"
 release_raw <- read_xlsx(here::here("data-raw", "DeltaEntry_ReleaseRaw.xlsx")) |>
   glimpse()
 write_csv(release_raw, here::here("data", "release.csv"))
