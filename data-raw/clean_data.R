@@ -19,6 +19,7 @@ write_csv(trap_raw, here::here("data", "trap.csv"))
 
 # recaptures empty due to no recaptures and missing data
 recaptures_raw <- read_xlsx(here::here("data-raw", "DeltaEntry_RecapturesRaw.xlsx")) |>
+  select(-mort) |>
   glimpse()
 
 write_csv(recaptures_raw, here::here("data", "recaptures.csv"))
@@ -27,6 +28,7 @@ write_csv(recaptures_raw, here::here("data", "recaptures.csv"))
 # TODO sourceOFFishSite, releaseSubSite, and appliedMarkCode are NA
 # TODO what is testDays?
 release_raw <- read_xlsx(here::here("data-raw", "DeltaEntry_ReleaseRaw.xlsx")) |>
+  select(-c(sourceOfFishSite, appliedMarkCode)) |>
   glimpse()
 write_csv(release_raw, here::here("data", "release.csv"))
 
