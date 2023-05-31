@@ -18,7 +18,7 @@ datatable_metadata <-
                                           "Daily trap operations",
                                           "Recaptured fish",
                                           "Released fish"),
-                datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/jpe-delta-entry-edi/main/data/",
+                datatable_url = paste0("https://raw.githubusercontent.com/SRJPE/jpe-delta-entry-edi/main/data/",
                                        c("catch.csv",
                                          "trap.csv",
                                          "recaptures.csv",
