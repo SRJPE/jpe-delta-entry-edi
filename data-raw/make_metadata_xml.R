@@ -50,18 +50,19 @@ dataset <- list() %>%
 
 # GO through and check on all units
 custom_units <- data.frame(id = c("number of rotations", "NTU", "revolutions per minute", "number of fish", "days",
-                                  "see waterTempUnit", "microSiemenPerCentimeter"),
+                                  "see waterTempUnit", "microSiemensPerCentimeter", "percentage"),
                            unitType = c("dimensionless", "dimensionless", "dimensionless", "dimensionless",
-                                        "dimensionless", "dimensionless","dimensionless"),
-                           parentSI = c(NA, NA, NA, NA, NA, NA, NA),
-                           multiplierToSI = c(NA, NA, NA, NA, NA, NA, NA),
+                                        "dimensionless", "dimensionless","dimensionless", "dimensionless"),
+                           parentSI = c(NA, NA, NA, NA, NA, NA, NA, NA),
+                           multiplierToSI = c(NA, NA, NA, NA, NA, NA, NA, NA),
                            description = c("number of rotations",
                                            "nephelometric turbidity units, common unit for measuring turbidity",
                                            "number of revolutions per minute",
                                            "number of fish counted",
                                            "number of days",
                                            "see designated column for units of water temperature collected",
-                                           "units for measuring conductivity"))
+                                           "units for measuring conductivity",
+                                           "units for measuring dissolved oxygen content"))
 
 
 unitList <- EML::set_unitList(custom_units)

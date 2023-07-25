@@ -30,7 +30,7 @@
       <electronicMailAddress>nick.bauer@wildlife.ca.gov</electronicMailAddress>
       <role>principal investigator</role>
     </associatedParty>
-    <pubDate>2023-06-30</pubDate>
+    <pubDate>2023-07-25</pubDate>
     <abstract>
       <para>
     The California Department of Fish and Wildlife (CDFW) issued
@@ -90,12 +90,12 @@
       <keyword>Central Valley</keyword>
     </keywordSet>
     <intellectualRights>
-      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
     </intellectualRights>
     <licensed>
-      <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
-      <url>https://spdx.org/licenses/CC0-1.0.html</url>
-      <identifier>CC0-1.0</identifier>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+      <identifier>CC-BY-4.0</identifier>
     </licensed>
     <coverage>
       <geographicCoverage>
@@ -113,7 +113,7 @@
             <calendarDate>2022-01-21</calendarDate>
           </beginDate>
           <endDate>
-            <calendarDate>2022-06-08</calendarDate>
+            <calendarDate>2023-02-02</calendarDate>
           </endDate>
         </rangeOfDates>
       </temporalCoverage>
@@ -463,7 +463,7 @@
               <dateTimeDomain>
                 <bounds>
                   <minimum exclusive="false">44582.5313</minimum>
-                  <maximum exclusive="false">44720.4274</maximum>
+                  <maximum exclusive="false">44959.4377</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -472,14 +472,12 @@
         <attribute>
           <attributeName>visitType</attributeName>
           <attributeLabel>catch</attributeLabel>
-          <attributeDefinition>Work that was done during visit to trap. Levels =c("Start trap &amp; begin trapping", "Continue trapping", "Unplanned restart", &#13;
-"End trapping")</attributeDefinition>
+          <attributeDefinition>Work that was done during visit to trap. Levels =c("Start trap &amp; begin trapping", "Continue trapping", "Unplanned restart", "End trapping")</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Work that was done during visit to trap. Levels =c("Start trap &amp; begin trapping", "Continue trapping", "Unplanned restart", &#13;
-"End trapping")</definition>
+                  <definition>Work that was done during visit to trap. Levels =c("Start trap &amp; begin trapping", "Continue trapping", "Unplanned restart", "End trapping")</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -542,7 +540,7 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>3824</numberOfRecords>
+      <numberOfRecords>4038</numberOfRecords>
     </dataTable>
     <dataTable>
       <entityName>trap.csv</entityName>
@@ -609,7 +607,7 @@
               <dateTimeDomain>
                 <bounds>
                   <minimum exclusive="false">2022-01-21 12:45:07</minimum>
-                  <maximum exclusive="false">2022-06-08 10:15:26</maximum>
+                  <maximum exclusive="false">2023-02-02 10:30:15</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -699,6 +697,25 @@
                 <bounds>
                   <minimum exclusive="false">0</minimum>
                   <maximum exclusive="false">5563</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>counterAtStart</attributeName>
+          <attributeLabel>trap</attributeLabel>
+          <attributeDefinition>Reading on the rotation counter at the beginning of the trap visit</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number of rotations</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3811</maximum>
                 </bounds>
               </numericDomain>
             </ratio>
@@ -807,7 +824,7 @@
                 <numberType>real</numberType>
                 <bounds>
                   <minimum exclusive="false">7.6</minimum>
-                  <maximum exclusive="false">22.7</maximum>
+                  <maximum exclusive="false">1706</maximum>
                 </bounds>
               </numericDomain>
             </ratio>
@@ -832,8 +849,46 @@
             </ratio>
           </measurementScale>
         </attribute>
+        <attribute>
+          <attributeName>conductivity</attributeName>
+          <attributeLabel>trap</attributeLabel>
+          <attributeDefinition>Conductivity measured at trap</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microSiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">110.6</minimum>
+                  <maximum exclusive="false">172.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dissolvedOxygen</attributeName>
+          <attributeLabel>trap</attributeLabel>
+          <attributeDefinition>Dissolved oxygen measured at trap</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percentage</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">93.1</minimum>
+                  <maximum exclusive="false">101.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
       </attributeList>
-      <numberOfRecords>272</numberOfRecords>
+      <numberOfRecords>321</numberOfRecords>
     </dataTable>
     <dataTable>
       <entityName>recaptures.csv</entityName>
@@ -1060,20 +1115,6 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>actualCountID</attributeName>
-          <attributeLabel>recapture</attributeLabel>
-          <attributeDefinition>Number corresponding to actualCount value</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>Number corresponding to actualCount value</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
           <attributeName>visitTime</attributeName>
           <attributeLabel>recapture</attributeLabel>
           <attributeDefinition>Date and time of day associated with the trap visit.</attributeDefinition>
@@ -1248,12 +1289,12 @@
         <attribute>
           <attributeName>markedRun</attributeName>
           <attributeLabel>release</attributeLabel>
-          <attributeDefinition>Run of fish marked. Level = c("Fall", "Spring")</attributeDefinition>
+          <attributeDefinition>Run of fish marked. Level = c("Fall"")</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Run of fish marked. Level = c("Fall", "Spring")</definition>
+                  <definition>Run of fish marked. Level = c("Fall"")</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -1450,8 +1491,11 @@
         <unit id="see waterTempUnit" name="see waterTempUnit" unitType="dimensionless">
           <description>see designated column for units of water temperature collected</description>
         </unit>
-        <unit id="microSiemenPerCentimeter" name="microSiemenPerCentimeter" unitType="dimensionless">
+        <unit id="microSiemensPerCentimeter" name="microSiemensPerCentimeter" unitType="dimensionless">
           <description>units for measuring conductivity</description>
+        </unit>
+        <unit id="percentage" name="percentage" unitType="dimensionless">
+          <description>units for measuring dissolved oxygen content</description>
         </unit>
       </unitList>
     </metadata>
