@@ -101,10 +101,10 @@
       <geographicCoverage>
         <geographicDescription>Delta Entry Rotary Screw Trap</geographicDescription>
         <boundingCoordinates>
-          <westBoundingCoordinate>-121.605</westBoundingCoordinate>
-          <eastBoundingCoordinate>-121.605</eastBoundingCoordinate>
-          <northBoundingCoordinate>38.7263</northBoundingCoordinate>
-          <southBoundingCoordinate>38.7263</southBoundingCoordinate>
+          <westBoundingCoordinate>-121.6478</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5908</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.7629</northBoundingCoordinate>
+          <southBoundingCoordinate>38.689</southBoundingCoordinate>
         </boundingCoordinates>
       </geographicCoverage>
       <temporalCoverage>
