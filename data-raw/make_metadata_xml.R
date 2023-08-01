@@ -67,6 +67,7 @@ custom_units <- data.frame(id = c("number of rotations", "NTU", "revolutions per
 
 unitList <- EML::set_unitList(custom_units)
 
+edi_number <- "delta_entry" # for now
 eml <- list(packageId = edi_number,
             system = "EDI",
             access = add_access(),
