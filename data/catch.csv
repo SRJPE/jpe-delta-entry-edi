@@ -3823,3 +3823,217 @@ ProjectDescriptionID,catchRawID,trapVisitID,commonName,releaseID,atCaptureRun,fi
 10,3881,132,Chinook salmon,0,Spring,Hatchery,Smolt,77,NA,1,2022-03-26T10:45:35Z,Continue trapping,Lower Sacramento River RST,RL,Spring,Yes
 10,3882,132,Chinook salmon,0,Spring,Hatchery,Smolt,72,NA,1,2022-03-26T10:45:35Z,Continue trapping,Lower Sacramento River RST,RL,Spring,Yes
 10,3883,162,Chinook salmon,0,Spring,Hatchery,Smolt,82,NA,1,2022-04-10T10:00:43Z,Continue trapping,Lower Sacramento River RST,RL,Spring,Yes
+10,3902,276,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-10T12:30:31Z,Start trap & begin trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3903,276,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-10T12:30:31Z,Start trap & begin trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3904,277,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-10T12:30:53Z,Start trap & begin trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3905,277,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-10T12:30:53Z,Start trap & begin trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3906,278,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-11T12:00:08Z,Unplanned restart,Lower Sacramento River RST,RR,NA,Yes
+10,3907,278,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-11T12:00:08Z,Unplanned restart,Lower Sacramento River RST,RR,NA,Yes
+10,3908,278,Largemouth bass,255,Not recorded,Natural,Not recorded,NA,192,1,2022-10-11T12:00:08Z,Unplanned restart,Lower Sacramento River RST,RR,NA,Yes
+10,3909,279,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-11T11:45:27Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3910,279,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-11T11:45:27Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3913,281,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3914,281,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3915,281,Chinook salmon,255,Fall,Natural,Parr,46,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3916,281,Chinook salmon,255,Fall,Natural,Button-up fry,45,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3917,281,Chinook salmon,255,Fall,Natural,Button-up fry,48,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3918,281,Chinook salmon,255,Fall,Natural,Button-up fry,40,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3919,281,Chinook salmon,255,Fall,Natural,Button-up fry,40,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3920,281,Chinook salmon,255,Fall,Natural,Parr,42,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3921,281,Chinook salmon,255,Fall,Natural,Silvery parr,48,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3922,281,Chinook salmon,255,Fall,Natural,Button-up fry,45,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3923,281,Chinook salmon,255,Fall,Natural,Button-up fry,38,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3924,281,Chinook salmon,255,Fall,Natural,Button-up fry,37,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3925,281,Chinook salmon,255,Fall,Natural,Parr,42,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3926,281,Chinook salmon,255,Spring,Natural,Silvery parr,50,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3927,281,Chinook salmon,255,Spring,Natural,Button-up fry,50,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3928,281,Chinook salmon,255,Spring,Natural,Button-up fry,50,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3929,281,Chinook salmon,255,Spring,Natural,Button-up fry,50,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3930,281,Chinook salmon,255,Spring,Natural,Silvery parr,53,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3931,281,Chinook salmon,255,Spring,Natural,Button-up fry,53,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3932,281,Chinook salmon,255,Winter,Natural,Silvery parr,106,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3933,281,Bluegill,255,Not recorded,Natural,Not recorded,NA,50,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3934,281,Channel catfish,255,Not recorded,Natural,Not recorded,NA,53,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3935,281,Black crappie,255,Not recorded,Natural,Not recorded,NA,190,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3936,281,Fathead minnow,255,Not recorded,Natural,Not recorded,NA,45,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3937,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,85,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3938,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,100,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3939,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,74,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3940,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,66,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3941,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,84,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3942,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,80,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3943,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,73,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3944,281,Inland silverside,255,Not recorded,Natural,Not recorded,NA,NA,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3945,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,21,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3946,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,34,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3947,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,23,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3948,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,33,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3949,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,28,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3950,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,26,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3951,281,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,33,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3952,281,Sacramento pikeminnow,255,Not recorded,Natural,Not recorded,NA,140,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3953,281,Sacramento pikeminnow,255,Not recorded,Natural,Not recorded,NA,62,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3954,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,90,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3955,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,83,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3956,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,68,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3957,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,88,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3958,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,57,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3959,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,80,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3960,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,80,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3961,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,68,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3962,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,90,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3963,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,60,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3964,281,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,NA,2,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3966,281,Warmouth,255,Not recorded,Natural,Not recorded,NA,55,1,2023-02-02T10:30:15Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3967,282,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-12T10:30:08Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3968,282,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-12T10:30:08Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3969,282,Inland silverside,255,Not recorded,Natural,Not recorded,NA,65,1,2022-10-12T10:30:08Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3970,282,Inland silverside,255,Not recorded,Natural,Not recorded,NA,73,1,2022-10-12T10:30:08Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3971,283,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3972,283,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3973,283,Spotted bass,255,Not recorded,Natural,Not recorded,NA,78,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3974,283,Bluegill,255,Not recorded,Natural,Not recorded,NA,69,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3975,283,Channel catfish,255,Not recorded,Natural,Not recorded,NA,228,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3976,283,Inland silverside,255,Not recorded,Natural,Not recorded,NA,70,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3977,283,Inland silverside,255,Not recorded,Natural,Not recorded,NA,44,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3978,283,Inland silverside,255,Not recorded,Natural,Not recorded,NA,52,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3979,283,Inland silverside,255,Not recorded,Natural,Not recorded,NA,62,1,2022-10-12T10:45:25Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3980,284,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-13T11:15:25Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3981,284,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-13T11:15:25Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3982,284,Inland silverside,255,Not recorded,Natural,Not recorded,NA,67,1,2022-10-13T11:15:25Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3983,284,Inland silverside,255,Not recorded,Natural,Not recorded,NA,74,1,2022-10-13T11:15:25Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3984,285,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-13T11:00:43Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3985,285,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-13T11:00:43Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3986,285,Channel catfish,255,Not recorded,Natural,Not recorded,NA,NA,1,2022-10-13T11:00:43Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,3987,286,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-14T10:30:11Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3988,286,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-14T10:30:11Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3989,286,Inland silverside,255,Not recorded,Natural,Not recorded,NA,74,1,2022-10-14T10:30:11Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3990,287,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-14T10:15:22Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3991,287,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-14T10:15:22Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3992,287,Inland silverside,255,Not recorded,Natural,Not recorded,NA,68,1,2022-10-14T10:15:22Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3993,287,Inland silverside,255,Not recorded,Natural,Not recorded,NA,63,1,2022-10-14T10:15:22Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3994,288,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-15T16:00:24Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3995,288,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-15T16:00:24Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3996,289,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-15T16:00:20Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3997,289,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-15T16:00:20Z,Unplanned restart,Lower Sacramento River RST,RL,NA,Yes
+10,3998,290,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-16T10:15:46Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,3999,290,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-16T10:15:46Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4000,291,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4001,291,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4002,291,Striped bass,255,Not recorded,Natural,Not recorded,NA,260,1,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4003,291,Bluegill,255,Not recorded,Natural,Not recorded,NA,57,1,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4004,291,Bluegill,255,Not recorded,Natural,Not recorded,NA,42,1,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4005,291,Bluegill,255,Not recorded,Natural,Not recorded,NA,54,1,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4006,291,Channel catfish,255,Not recorded,Natural,Not recorded,NA,NA,1,2022-10-16T10:45:13Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4007,292,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-17T10:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4008,292,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-17T10:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4009,292,Inland silverside,255,Not recorded,Natural,Not recorded,NA,49,1,2022-10-17T10:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4010,293,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-17T11:15:54Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4011,293,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-17T11:15:54Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4012,293,Spotted bass,255,Not recorded,Natural,Not recorded,NA,80,1,2022-10-17T11:15:54Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4013,294,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-18T10:00:39Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4014,294,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-18T10:00:39Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4015,294,Smallmouth bass,255,Not recorded,Natural,Not recorded,NA,76,1,2022-10-18T10:00:39Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4016,294,Striped bass,255,Not recorded,Natural,Not recorded,NA,265,1,2022-10-18T10:00:39Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4017,294,Inland silverside,255,Not recorded,Natural,Not recorded,NA,63,1,2022-10-18T10:00:39Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4018,294,Sacramento pikeminnow,255,Not recorded,Natural,Not recorded,NA,117,1,2022-10-18T10:00:39Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4019,295,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-18T09:45:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4020,295,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-18T09:45:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4021,295,Striped bass,255,Not recorded,Natural,Not recorded,NA,87,1,2022-10-18T09:45:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4022,295,Inland silverside,255,Not recorded,Natural,Not recorded,NA,62,1,2022-10-18T09:45:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4023,295,Inland silverside,255,Not recorded,Natural,Not recorded,NA,38,1,2022-10-18T09:45:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4024,296,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-19T10:15:45Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4025,296,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-19T10:15:45Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4026,296,Inland silverside,255,Not recorded,Natural,Not recorded,NA,53,1,2022-10-19T10:15:45Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4027,297,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-19T10:00:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4028,297,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-19T10:00:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4029,297,Inland silverside,255,Not recorded,Natural,Not recorded,NA,39,1,2022-10-19T10:00:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4030,297,Inland silverside,255,Not recorded,Natural,Not recorded,NA,57,1,2022-10-19T10:00:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4031,297,Threadfin shad,255,Not recorded,Natural,Not recorded,NA,114,1,2022-10-19T10:00:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4033,298,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-20T10:45:31Z,Continue trapping,Lower Sacramento River RST,RR,Fall,Yes
+10,4034,298,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-20T10:45:31Z,Continue trapping,Lower Sacramento River RST,RR,Fall,Yes
+10,4035,299,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-20T10:30:17Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4036,299,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-20T10:30:17Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4037,300,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-21T11:30:07Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4038,300,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-21T11:30:07Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4039,300,Inland silverside,255,Not recorded,Natural,Not recorded,NA,47,1,2022-10-21T11:30:07Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4040,301,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-21T11:45:58Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4041,301,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-21T11:45:58Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4042,302,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-22T11:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4043,302,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-22T11:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4044,302,Channel catfish,255,Not recorded,Natural,Not recorded,NA,78,1,2022-10-22T11:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4045,302,White catfish,255,Not recorded,Natural,Not recorded,NA,166,1,2022-10-22T11:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4046,302,Inland silverside,255,Not recorded,Natural,Not recorded,NA,61,1,2022-10-22T11:45:12Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4047,303,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-22T11:45:42Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4048,303,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-22T11:45:42Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4049,304,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-23T10:30:38Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4050,304,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-23T10:30:38Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4051,305,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-23T10:30:57Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4052,305,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-23T10:30:57Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4055,306,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-24T11:45:48Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4056,306,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-24T11:45:48Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4057,306,Channel catfish,255,Not recorded,Natural,Not recorded,NA,57,1,2022-10-24T11:45:48Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4058,306,Inland silverside,255,Not recorded,Natural,Not recorded,NA,47,1,2022-10-24T11:45:48Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4059,306,Unknown sunfish (Lepomis),255,Not recorded,Natural,Not recorded,NA,46,1,2022-10-24T11:45:48Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4060,307,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-24T12:00:22Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4061,307,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-24T12:00:22Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4062,308,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-25T09:45:05Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4063,308,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-25T09:45:05Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4064,309,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-25T09:30:39Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4065,309,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-25T09:30:39Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4066,309,Hitch,255,Not recorded,Natural,Not recorded,NA,119,1,2022-10-25T09:30:39Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4067,310,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-26T11:00:04Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4068,310,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-26T11:00:04Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4069,311,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-26T11:15:34Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4070,311,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-26T11:15:34Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4071,311,Tule perch,255,Not recorded,Natural,Not recorded,NA,175,1,2022-10-26T11:15:34Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4072,312,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-27T10:30:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4073,312,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-27T10:30:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4074,313,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-27T10:15:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4075,313,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-27T10:15:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4076,313,Smallmouth bass,255,Not recorded,Natural,Not recorded,NA,78,1,2022-10-27T10:15:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4077,313,Bluegill,255,Not recorded,Natural,Not recorded,NA,50,1,2022-10-27T10:15:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4078,313,White catfish,255,Not recorded,Natural,Not recorded,NA,56,1,2022-10-27T10:15:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4079,313,Inland silverside,255,Not recorded,Natural,Not recorded,NA,40,1,2022-10-27T10:15:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4080,314,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-28T09:45:02Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4081,314,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-28T09:45:02Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4082,314,American shad,255,Not recorded,Natural,Not recorded,NA,114,1,2022-10-28T09:45:02Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4083,315,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-28T09:30:44Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4084,315,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-28T09:30:44Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4085,316,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-29T10:45:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4086,316,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-29T10:45:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4087,316,Spotted bass,255,Not recorded,Natural,Not recorded,NA,84,1,2022-10-29T10:45:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4088,316,Bluegill,255,Not recorded,Natural,Not recorded,NA,124,1,2022-10-29T10:45:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4089,316,Inland silverside,255,Not recorded,Natural,Not recorded,NA,43,1,2022-10-29T10:45:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4090,316,American shad,255,Not recorded,Natural,Not recorded,NA,114,1,2022-10-29T10:45:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4091,317,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-29T11:00:23Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4092,317,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-29T11:00:23Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4093,317,Black crappie,255,Not recorded,Natural,Not recorded,NA,165,1,2022-10-29T11:00:23Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4094,318,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-30T11:15:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4095,318,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-30T11:15:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4096,318,Bluegill,255,Not recorded,Natural,Not recorded,NA,67,1,2022-10-30T11:15:44Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4097,319,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-30T11:30:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4098,319,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-30T11:30:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4099,319,Spotted bass,255,Not recorded,Natural,Not recorded,NA,78,1,2022-10-30T11:30:29Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4100,320,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-31T10:30:43Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4101,320,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-31T10:30:43Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4102,320,Smallmouth bass,255,Not recorded,Natural,Not recorded,NA,70,1,2022-10-31T10:30:43Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4103,320,Spotted bass,255,Not recorded,Natural,Not recorded,NA,87,1,2022-10-31T10:30:43Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4104,321,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-31T10:45:40Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4105,321,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-10-31T10:45:40Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4106,322,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-01T10:45:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4107,322,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-01T10:45:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4108,322,Channel catfish,255,Not recorded,Natural,Not recorded,NA,92,1,2022-11-01T10:45:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4109,322,Golden shiner,255,Not recorded,Natural,Not recorded,NA,59,1,2022-11-01T10:45:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4110,322,Inland silverside,255,Not recorded,Natural,Not recorded,NA,41,1,2022-11-01T10:45:50Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4112,323,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-01T10:30:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4113,323,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-01T10:30:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4114,323,Inland silverside,255,Not recorded,Natural,Not recorded,NA,68,1,2022-11-01T10:30:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4115,323,Mosquitofish,255,Not recorded,Natural,Not recorded,NA,31,1,2022-11-01T10:30:41Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4116,324,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-02T12:00:54Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4117,324,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-02T12:00:54Z,Continue trapping,Lower Sacramento River RST,RR,NA,Yes
+10,4118,325,Chinook salmon,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-03T12:15:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4119,325,Steelhead / rainbow trout,255,Not recorded,Natural,Not recorded,NA,NA,0,2022-11-03T12:15:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4120,325,Smallmouth bass,255,Not recorded,Natural,Not recorded,NA,76,1,2022-11-03T12:15:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4121,325,Spotted bass,255,Not recorded,Natural,Not recorded,NA,50,1,2022-11-03T12:15:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
+10,4122,325,Channel catfish,255,Not recorded,Natural,Not recorded,NA,58,1,2022-11-03T12:15:45Z,Continue trapping,Lower Sacramento River RST,RL,NA,Yes
