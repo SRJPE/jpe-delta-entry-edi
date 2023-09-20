@@ -8,20 +8,20 @@ library(EMLaide)
 datatable_metadata <-
   dplyr::tibble(filepath = c("data/delta_entry_catch_edi.csv",
                              "data/delta_entry_trap_edi.csv",
-                             "data/delta_entry_recapture_edi.csv",
+                             #"data/delta_entry_recapture_edi.csv",
                              "data/delta_entry_release_edi.csv"),
                 attribute_info = c("data-raw/metadata/delta_entry_catch_metadata.xlsx",
                                    "data-raw/metadata/delta_entry_trap_metadata.xlsx",
-                                   "data-raw/metadata/delta_entry_recapture_metadata.xlsx",
+                                   #"data-raw/metadata/delta_entry_recapture_metadata.xlsx",
                                    "data-raw/metadata/delta_entry_release_metadata.xlsx"),
                 datatable_description = c("Daily catch",
                                           "Daily trap operations",
-                                          "Recaptured fish",
+                                          #"Recaptured fish",
                                           "Released fish"),
                 datatable_url = paste0("https://raw.githubusercontent.com/SRJPE/jpe-delta-entry-edi/main/data/",
                                        c("delta_entry_catch_edi.csv",
                                          "delta_entry_trap_edi.csv",
-                                         "delta_entry_recapture_edi.csv",
+                                         #"delta_entry_recapture_edi.csv",
                                          "delta_entry_release_edi.csv")))
 
 excel_path <- "data-raw/metadata/delta_entry_metadata.xlsx"
@@ -78,6 +78,7 @@ EML::write_eml(eml, paste0(edi_number, ".xml"))
 EML::eml_validate(paste0(edi_number, ".xml"))
 
 EMLaide::evaluate_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
+View(report_df)
 EMLaide::upload_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
 
 
