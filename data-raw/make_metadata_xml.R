@@ -6,10 +6,10 @@ library(EML)
 library(EMLaide)
 
 datatable_metadata <-
-  dplyr::tibble(filepath = c("data/catch.csv",
-                             "data/trap.csv",
-                             "data/recaptures.csv",
-                             "data/release.csv"),
+  dplyr::tibble(filepath = c("data/delta_entry_catch_edi.csv",
+                             "data/delta_entry_trap_edi.csv",
+                             "data/delta_entry_recaptures_edi.csv",
+                             "data/delta_entry_release_edi.csv"),
                 attribute_info = c("data-raw/metadata/delta_entry_catch_metadata.xlsx",
                                    "data-raw/metadata/delta_entry_trap_metadata.xlsx",
                                    "data-raw/metadata/delta_entry_recapture_metadata.xlsx",
@@ -19,13 +19,12 @@ datatable_metadata <-
                                           "Recaptured fish",
                                           "Released fish"),
                 datatable_url = paste0("https://raw.githubusercontent.com/SRJPE/jpe-delta-entry-edi/main/data/",
-                                       c("catch.csv",
-                                         "trap.csv",
-                                         "recaptures.csv",
-                                         "release.csv")))
+                                       c("delta_entry_catch_edi.csv",
+                                         "delta_entry_trap_edi.csv",
+                                         "delta_entry_recaptures_edi.csv",
+                                         "delta_entry_release_edi.csv")))
 
-excel_path <- "data-raw/metadata/delta_entry_metadata.xlsx" # TODO funding? personnel?
-# TODO confirm lat/long (https://www.calfish.org/ProgramsData/ConservationandManagement/CentralValleyMonitoring/SacramentoValleyTributaryMonitoring/LowerSacramentoRiver-RSTMonitoring.aspx)
+excel_path <- "data-raw/metadata/delta_entry_metadata.xlsx"
 sheets <- readxl::excel_sheets(excel_path)
 metadata <- lapply(sheets, function(x) readxl::read_excel(excel_path, sheet = x))
 names(metadata) <- sheets
