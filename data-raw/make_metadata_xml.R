@@ -8,7 +8,7 @@ library(EMLaide)
 datatable_metadata <-
   dplyr::tibble(filepath = c("data/delta_entry_catch_edi.csv",
                              "data/delta_entry_trap_edi.csv",
-                             "data/delta_entry_recaptures_edi.csv",
+                             "data/delta_entry_recapture_edi.csv",
                              "data/delta_entry_release_edi.csv"),
                 attribute_info = c("data-raw/metadata/delta_entry_catch_metadata.xlsx",
                                    "data-raw/metadata/delta_entry_trap_metadata.xlsx",
@@ -21,7 +21,7 @@ datatable_metadata <-
                 datatable_url = paste0("https://raw.githubusercontent.com/SRJPE/jpe-delta-entry-edi/main/data/",
                                        c("delta_entry_catch_edi.csv",
                                          "delta_entry_trap_edi.csv",
-                                         "delta_entry_recaptures_edi.csv",
+                                         "delta_entry_recapture_edi.csv",
                                          "delta_entry_release_edi.csv")))
 
 excel_path <- "data-raw/metadata/delta_entry_metadata.xlsx"
@@ -31,8 +31,9 @@ names(metadata) <- sheets
 
 abstract_docx <- "data-raw/metadata/abstract.docx"
 methods_docx <- "data-raw/metadata/methods.md" # original, bulleted methods are in the .docx file
-#edi_number <- reserve_edi_id(user_id = Sys.getenv("EDI_USER_ID"), password = Sys.getenv("EDI_PASSWORD"))
-# edi_number <- fill in with reserved edi number
+
+#edi_number <- reserve_edi_id(user_id = Sys.getenv("edi_user_id"), password = Sys.getenv("edi_password"))
+edi_number <- "edi.1503.1" # reserved 9-20-2023 under srjpe account
 
 dataset <- list() %>%
   add_pub_date() %>%
@@ -66,7 +67,6 @@ custom_units <- data.frame(id = c("number of rotations", "NTU", "revolutions per
 
 unitList <- EML::set_unitList(custom_units)
 
-edi_number <- "delta_entry" # for now
 eml <- list(packageId = edi_number,
             system = "EDI",
             access = add_access(),
@@ -76,6 +76,10 @@ eml <- list(packageId = edi_number,
 edi_number
 EML::write_eml(eml, paste0(edi_number, ".xml"))
 EML::eml_validate(paste0(edi_number, ".xml"))
+
+EMLaide::evaluate_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
+EMLaide::upload_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
+
 
 
 # preview_coverage <- function(dataset) {

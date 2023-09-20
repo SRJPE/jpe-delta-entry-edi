@@ -16,6 +16,7 @@ write_csv(trap_raw, here::here("data", "delta_entry_trap_edi.csv"))
 
 # recaptures empty due to no recaptures and missing data
 recaptures_raw <- read_xlsx(here::here("data-raw", "DeltaEntry_RecapturesRaw.xlsx")) |>
+  mutate(trapFunctioning = str_replace(trapFunctioning, ",", ":")) |>
   glimpse()
 
 write_csv(recaptures_raw, here::here("data", "delta_entry_recapture_edi.csv"))
