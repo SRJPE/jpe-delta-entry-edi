@@ -1,4 +1,4 @@
-library(EDIutils)
+# library(EDIutils)
 library(tidyverse)
 library(tidyverse)
 library(readxl)
@@ -33,7 +33,24 @@ abstract_docx <- "data-raw/metadata/abstract.docx"
 methods_docx <- "data-raw/metadata/methods.md" # original, bulleted methods are in the .docx file
 
 #edi_number <- reserve_edi_id(user_id = Sys.getenv("edi_user_id"), password = Sys.getenv("edi_password"))
-edi_number <- "edi.1503.1" # reserved 9-20-2023 under srjpe account
+# edi_number <- "edi.1503.1" # reserved 9-20-2023 under srjpe account
+
+# Version log for tracking EDI number and versions
+vl <- readr::read_csv("data-raw/version_log.csv", col_types = c('c', "D"))
+previous_edi_number <- tail(vl['edi_version'], n=1)
+previous_edi_number <- previous_edi_number$edi_version
+previous_edi_ver <- as.numeric(stringr::str_extract(previous_edi_number, "[^.]*$"))
+current_edi_ver <- as.character(previous_edi_ver + 1)
+previous_edi_id_list <- stringr::str_split(previous_edi_number, "\\.")
+previous_edi_id <- sapply(previous_edi_id_list, '[[', 2)
+current_edi_number <- paste0("edi.", previous_edi_id, ".", current_edi_ver)
+
+new_row <- data.frame(
+    edi_version = current_edi_number,
+    date = as.character(Sys.Date())
+)
+vl <- bind_rows(vl, new_row)
+write.csv(vl, "data-raw/version_log.csv", row.names=FALSE)
 
 dataset <- list() %>%
   add_pub_date() %>%
@@ -73,13 +90,21 @@ eml <- list(packageId = edi_number,
             dataset = dataset,
             additionalMetadata = list(metadata = list(unitList = unitList))
 )
-edi_number
+# edi_number
 EML::write_eml(eml, paste0(edi_number, ".xml"))
-EML::eml_validate(paste0(edi_number, ".xml"))
+message("EML Metadata generated")
 
-EMLaide::evaluate_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
-View(report_df)
-EMLaide::upload_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
+# EML::eml_validate(paste0(edi_number, ".xml"))
+
+EMLaide::update_edi_package(user_id = secret_edi_username,
+                            password = secret_edi_password,
+                            eml_file_path = paste0(getwd(), "/", current_edi_number, ".xml"),
+                            existing_package_identifier = paste0("edi.",previous_edi_id, ".", previous_edi_ver, ".xml"),
+                            environment = "staging")
+# 
+# EMLaide::evaluate_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
+# View(report_df)
+# EMLaide::upload_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("edi_password"), paste0(edi_number, ".xml"))
 
 
 
